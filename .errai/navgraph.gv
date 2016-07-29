@@ -1,0 +1,633 @@
+digraph Navigation {
+"LoginPage" [penwidth=3]
+"LoginPage" -> "SignUpPage" [label="signUpPage"]
+"LoginPage" -> "PasswordPage" [label="passwordPage"]
+"LoginPage" -> "Dashboard" [label="dashboardPage"]
+"ViewAccountingtransactionPage"
+"ViewAccountingtransactionPage" -> "CreateAccountingtransactionPage" [label="createAccountingtransactionPage"]
+"ViewAccountingtransactionPage" -> "EditAccountingtransactionPage" [label="editAccountingtransactionPage"]
+"ViewAccountingtransactionPage" -> "ViewAccountingtransactionPage" [label="viewAccountingtransactionPage"]
+"ViewAccountingtransactionPage" -> "ListAccountingtransactionPage" [label="listAccountingtransactionsPage"]
+"CreateProductfeaturePage"
+"CreateProductfeaturePage" -> "CreateProductfeaturePage" [label="createProductfeaturePage"]
+"CreateProductfeaturePage" -> "EditProductfeaturePage" [label="editProductfeaturePage"]
+"CreateProductfeaturePage" -> "ViewProductfeaturePage" [label="viewProductfeaturePage"]
+"CreateProductfeaturePage" -> "ListProductfeaturePage" [label="listProductfeaturesPage"]
+"CreatePartyroletypePage"
+"CreatePartyroletypePage" -> "CreatePartyroletypePage" [label="createPartyroletypePage"]
+"CreatePartyroletypePage" -> "EditPartyroletypePage" [label="editPartyroletypePage"]
+"CreatePartyroletypePage" -> "ViewPartyroletypePage" [label="viewPartyroletypePage"]
+"CreatePartyroletypePage" -> "ListPartyroletypePage" [label="listPartyroletypesPage"]
+"ViewGeneralledgeraccounttypePage"
+"ViewGeneralledgeraccounttypePage" -> "CreateGeneralledgeraccounttypePage" [label="createGeneralledgeraccounttypePage"]
+"ViewGeneralledgeraccounttypePage" -> "EditGeneralledgeraccounttypePage" [label="editGeneralledgeraccounttypePage"]
+"ViewGeneralledgeraccounttypePage" -> "ViewGeneralledgeraccounttypePage" [label="viewGeneralledgeraccounttypePage"]
+"ViewGeneralledgeraccounttypePage" -> "ListGeneralledgeraccounttypePage" [label="listGeneralledgeraccounttypesPage"]
+"CreateSupplierproductPage"
+"CreateSupplierproductPage" -> "CreateSupplierproductPage" [label="createSupplierproductPage"]
+"CreateSupplierproductPage" -> "EditSupplierproductPage" [label="editSupplierproductPage"]
+"CreateSupplierproductPage" -> "ViewSupplierproductPage" [label="viewSupplierproductPage"]
+"CreateSupplierproductPage" -> "ListSupplierproductPage" [label="listSupplierproductsPage"]
+"ListPartyrolePage"
+"ListPartyrolePage" -> "CreatePartyrolePage" [label="createPartyrolePage"]
+"ListPartyrolePage" -> "EditPartyrolePage" [label="editPartyrolePage"]
+"ListPartyrolePage" -> "ViewPartyrolePage" [label="viewPartyrolePage"]
+"ListPartyrolePage" -> "ListPartyrolePage" [label="listPartyrolesPage"]
+"EditInvoicetermPage"
+"EditInvoicetermPage" -> "CreateInvoicetermPage" [label="createInvoicetermPage"]
+"EditInvoicetermPage" -> "EditInvoicetermPage" [label="editInvoicetermPage"]
+"EditInvoicetermPage" -> "ViewInvoicetermPage" [label="viewInvoicetermPage"]
+"EditInvoicetermPage" -> "ListInvoicetermPage" [label="listInvoicetermsPage"]
+"ViewInvoicePage"
+"ViewInvoicePage" -> "CreateInvoicePage" [label="createInvoicePage"]
+"ViewInvoicePage" -> "EditInvoicePage" [label="editInvoicePage"]
+"ViewInvoicePage" -> "ViewInvoicePage" [label="viewInvoicePage"]
+"ViewInvoicePage" -> "ListInvoicePage" [label="listInvoicesPage"]
+"ListPersonPage"
+"ListPersonPage" -> "CreatePersonPage" [label="createPersonPage"]
+"ListPersonPage" -> "EditPersonPage" [label="editPersonPage"]
+"ListPersonPage" -> "ViewPersonPage" [label="viewPersonPage"]
+"ListPersonPage" -> "ListPersonPage" [label="listPersonsPage"]
+"ViewProductfeaturePage"
+"ViewProductfeaturePage" -> "CreateProductfeaturePage" [label="createProductfeaturePage"]
+"ViewProductfeaturePage" -> "EditProductfeaturePage" [label="editProductfeaturePage"]
+"ViewProductfeaturePage" -> "ViewProductfeaturePage" [label="viewProductfeaturePage"]
+"ViewProductfeaturePage" -> "ListProductfeaturePage" [label="listProductfeaturesPage"]
+"EditBudgetitemPage"
+"EditBudgetitemPage" -> "CreateBudgetitemPage" [label="createBudgetitemPage"]
+"EditBudgetitemPage" -> "EditBudgetitemPage" [label="editBudgetitemPage"]
+"EditBudgetitemPage" -> "ViewBudgetitemPage" [label="viewBudgetitemPage"]
+"EditBudgetitemPage" -> "ListBudgetitemPage" [label="listBudgetitemsPage"]
+"ListInventoryitemPage"
+"ListInventoryitemPage" -> "CreateInventoryitemPage" [label="createInventoryitemPage"]
+"ListInventoryitemPage" -> "EditInventoryitemPage" [label="editInventoryitemPage"]
+"ListInventoryitemPage" -> "ViewInventoryitemPage" [label="viewInventoryitemPage"]
+"ListInventoryitemPage" -> "ListInventoryitemPage" [label="listInventoryitemsPage"]
+"EditOrganizationPage"
+"EditOrganizationPage" -> "CreateOrganizationPage" [label="createOrganizationPage"]
+"EditOrganizationPage" -> "EditOrganizationPage" [label="editOrganizationPage"]
+"EditOrganizationPage" -> "ViewOrganizationPage" [label="viewOrganizationPage"]
+"EditOrganizationPage" -> "ListOrganizationPage" [label="listOrganizationsPage"]
+"EditFacilitytypePage"
+"EditFacilitytypePage" -> "CreateFacilitytypePage" [label="createFacilitytypePage"]
+"EditFacilitytypePage" -> "EditFacilitytypePage" [label="editFacilitytypePage"]
+"EditFacilitytypePage" -> "ViewFacilitytypePage" [label="viewFacilitytypePage"]
+"EditFacilitytypePage" -> "ListFacilitytypePage" [label="listFacilitytypesPage"]
+"ViewOrganizationgeneralledgeraccountPage"
+"ViewOrganizationgeneralledgeraccountPage" -> "CreateOrganizationgeneralledgeraccountPage" [label="createOrganizationgeneralledgeraccountPage"]
+"ViewOrganizationgeneralledgeraccountPage" -> "EditOrganizationgeneralledgeraccountPage" [label="editOrganizationgeneralledgeraccountPage"]
+"ViewOrganizationgeneralledgeraccountPage" -> "ViewOrganizationgeneralledgeraccountPage" [label="viewOrganizationgeneralledgeraccountPage"]
+"ViewOrganizationgeneralledgeraccountPage" -> "ListOrganizationgeneralledgeraccountPage" [label="listOrganizationgeneralledgeraccountsPage"]
+"ListGeneralledgeraccounttypePage"
+"ListGeneralledgeraccounttypePage" -> "CreateGeneralledgeraccounttypePage" [label="createGeneralledgeraccounttypePage"]
+"ListGeneralledgeraccounttypePage" -> "EditGeneralledgeraccounttypePage" [label="editGeneralledgeraccounttypePage"]
+"ListGeneralledgeraccounttypePage" -> "ViewGeneralledgeraccounttypePage" [label="viewGeneralledgeraccounttypePage"]
+"ListGeneralledgeraccounttypePage" -> "ListGeneralledgeraccounttypePage" [label="listGeneralledgeraccounttypesPage"]
+"CreateOrganizationPage"
+"CreateOrganizationPage" -> "CreateOrganizationPage" [label="createOrganizationPage"]
+"CreateOrganizationPage" -> "EditOrganizationPage" [label="editOrganizationPage"]
+"CreateOrganizationPage" -> "ViewOrganizationPage" [label="viewOrganizationPage"]
+"CreateOrganizationPage" -> "ListOrganizationPage" [label="listOrganizationsPage"]
+"CreateFacilityPage"
+"CreateFacilityPage" -> "CreateFacilityPage" [label="createFacilityPage"]
+"CreateFacilityPage" -> "EditFacilityPage" [label="editFacilityPage"]
+"CreateFacilityPage" -> "ViewFacilityPage" [label="viewFacilityPage"]
+"CreateFacilityPage" -> "ListFacilityPage" [label="listFacilitysPage"]
+"ListPartyroletypePage"
+"ListPartyroletypePage" -> "CreatePartyroletypePage" [label="createPartyroletypePage"]
+"ListPartyroletypePage" -> "EditPartyroletypePage" [label="editPartyroletypePage"]
+"ListPartyroletypePage" -> "ViewPartyroletypePage" [label="viewPartyroletypePage"]
+"ListPartyroletypePage" -> "ListPartyroletypePage" [label="listPartyroletypesPage"]
+"ListBudgetPage"
+"ListBudgetPage" -> "CreateBudgetPage" [label="createBudgetPage"]
+"ListBudgetPage" -> "EditBudgetPage" [label="editBudgetPage"]
+"ListBudgetPage" -> "ViewBudgetPage" [label="viewBudgetPage"]
+"ListBudgetPage" -> "ListBudgetPage" [label="listBudgetsPage"]
+"EditInventoryitemPage"
+"EditInventoryitemPage" -> "CreateInventoryitemPage" [label="createInventoryitemPage"]
+"EditInventoryitemPage" -> "EditInventoryitemPage" [label="editInventoryitemPage"]
+"EditInventoryitemPage" -> "ViewInventoryitemPage" [label="viewInventoryitemPage"]
+"EditInventoryitemPage" -> "ListInventoryitemPage" [label="listInventoryitemsPage"]
+"ListOrganizationgeneralledgeraccountPage"
+"ListOrganizationgeneralledgeraccountPage" -> "CreateOrganizationgeneralledgeraccountPage" [label="createOrganizationgeneralledgeraccountPage"]
+"ListOrganizationgeneralledgeraccountPage" -> "EditOrganizationgeneralledgeraccountPage" [label="editOrganizationgeneralledgeraccountPage"]
+"ListOrganizationgeneralledgeraccountPage" -> "ViewOrganizationgeneralledgeraccountPage" [label="viewOrganizationgeneralledgeraccountPage"]
+"ListOrganizationgeneralledgeraccountPage" -> "ListOrganizationgeneralledgeraccountPage" [label="listOrganizationgeneralledgeraccountsPage"]
+"ListProductfeaturePage"
+"ListProductfeaturePage" -> "CreateProductfeaturePage" [label="createProductfeaturePage"]
+"ListProductfeaturePage" -> "EditProductfeaturePage" [label="editProductfeaturePage"]
+"ListProductfeaturePage" -> "ViewProductfeaturePage" [label="viewProductfeaturePage"]
+"ListProductfeaturePage" -> "ListProductfeaturePage" [label="listProductfeaturesPage"]
+"CreatePartyrolePage"
+"CreatePartyrolePage" -> "CreatePartyrolePage" [label="createPartyrolePage"]
+"CreatePartyrolePage" -> "EditPartyrolePage" [label="editPartyrolePage"]
+"CreatePartyrolePage" -> "ViewPartyrolePage" [label="viewPartyrolePage"]
+"CreatePartyrolePage" -> "ListPartyrolePage" [label="listPartyrolesPage"]
+"ViewInvoicetermPage"
+"ViewInvoicetermPage" -> "CreateInvoicetermPage" [label="createInvoicetermPage"]
+"ViewInvoicetermPage" -> "EditInvoicetermPage" [label="editInvoicetermPage"]
+"ViewInvoicetermPage" -> "ViewInvoicetermPage" [label="viewInvoicetermPage"]
+"ViewInvoicetermPage" -> "ListInvoicetermPage" [label="listInvoicetermsPage"]
+"EditAccountingtransactionPage"
+"EditAccountingtransactionPage" -> "CreateAccountingtransactionPage" [label="createAccountingtransactionPage"]
+"EditAccountingtransactionPage" -> "EditAccountingtransactionPage" [label="editAccountingtransactionPage"]
+"EditAccountingtransactionPage" -> "ViewAccountingtransactionPage" [label="viewAccountingtransactionPage"]
+"EditAccountingtransactionPage" -> "ListAccountingtransactionPage" [label="listAccountingtransactionsPage"]
+"CreateInvoiceitemPage"
+"CreateInvoiceitemPage" -> "CreateInvoiceitemPage" [label="createInvoiceitemPage"]
+"CreateInvoiceitemPage" -> "EditInvoiceitemPage" [label="editInvoiceitemPage"]
+"CreateInvoiceitemPage" -> "ViewInvoiceitemPage" [label="viewInvoiceitemPage"]
+"CreateInvoiceitemPage" -> "ListInvoiceitemPage" [label="listInvoiceitemsPage"]
+"EditProductPage"
+"EditProductPage" -> "CreateProductPage" [label="createProductPage"]
+"EditProductPage" -> "EditProductPage" [label="editProductPage"]
+"EditProductPage" -> "ViewProductPage" [label="viewProductPage"]
+"EditProductPage" -> "ListProductPage" [label="listProductsPage"]
+"ListInvoicePage"
+"ListInvoicePage" -> "CreateInvoicePage" [label="createInvoicePage"]
+"ListInvoicePage" -> "EditInvoicePage" [label="editInvoicePage"]
+"ListInvoicePage" -> "ViewInvoicePage" [label="viewInvoicePage"]
+"ListInvoicePage" -> "ListInvoicePage" [label="listInvoicesPage"]
+"ViewPaymentPage"
+"ViewPaymentPage" -> "CreatePaymentPage" [label="createPaymentPage"]
+"ViewPaymentPage" -> "EditPaymentPage" [label="editPaymentPage"]
+"ViewPaymentPage" -> "ViewPaymentPage" [label="viewPaymentPage"]
+"ViewPaymentPage" -> "ListPaymentPage" [label="listPaymentsPage"]
+"ListPaymentPage"
+"ListPaymentPage" -> "CreatePaymentPage" [label="createPaymentPage"]
+"ListPaymentPage" -> "EditPaymentPage" [label="editPaymentPage"]
+"ListPaymentPage" -> "ViewPaymentPage" [label="viewPaymentPage"]
+"ListPaymentPage" -> "ListPaymentPage" [label="listPaymentsPage"]
+"Dashboard"
+"EditPersonPage"
+"EditPersonPage" -> "CreatePersonPage" [label="createPersonPage"]
+"EditPersonPage" -> "EditPersonPage" [label="editPersonPage"]
+"EditPersonPage" -> "ViewPersonPage" [label="viewPersonPage"]
+"EditPersonPage" -> "ListPersonPage" [label="listPersonsPage"]
+"ListProductfeaturetypePage"
+"ListProductfeaturetypePage" -> "CreateProductfeaturetypePage" [label="createProductfeaturetypePage"]
+"ListProductfeaturetypePage" -> "EditProductfeaturetypePage" [label="editProductfeaturetypePage"]
+"ListProductfeaturetypePage" -> "ViewProductfeaturetypePage" [label="viewProductfeaturetypePage"]
+"ListProductfeaturetypePage" -> "ListProductfeaturetypePage" [label="listProductfeaturetypesPage"]
+"CreateProductcategoryPage"
+"CreateProductcategoryPage" -> "CreateProductcategoryPage" [label="createProductcategoryPage"]
+"CreateProductcategoryPage" -> "EditProductcategoryPage" [label="editProductcategoryPage"]
+"CreateProductcategoryPage" -> "ViewProductcategoryPage" [label="viewProductcategoryPage"]
+"CreateProductcategoryPage" -> "ListProductcategoryPage" [label="listProductcategorysPage"]
+"EditPartyroletypePage"
+"EditPartyroletypePage" -> "CreatePartyroletypePage" [label="createPartyroletypePage"]
+"EditPartyroletypePage" -> "EditPartyroletypePage" [label="editPartyroletypePage"]
+"EditPartyroletypePage" -> "ViewPartyroletypePage" [label="viewPartyroletypePage"]
+"EditPartyroletypePage" -> "ListPartyroletypePage" [label="listPartyroletypesPage"]
+"EditUniversePage"
+"EditUniversePage" -> "CreateUniversePage" [label="createUniversePage"]
+"EditUniversePage" -> "EditUniversePage" [label="editUniversePage"]
+"EditUniversePage" -> "ViewUniversePage" [label="viewUniversePage"]
+"EditUniversePage" -> "ListUniversePage" [label="listUniversesPage"]
+"CreatePartytypePage"
+"CreatePartytypePage" -> "CreatePartytypePage" [label="createPartytypePage"]
+"CreatePartytypePage" -> "EditPartytypePage" [label="editPartytypePage"]
+"CreatePartytypePage" -> "ViewPartytypePage" [label="viewPartytypePage"]
+"CreatePartytypePage" -> "ListPartytypePage" [label="listPartytypesPage"]
+"ViewSystemuserPage"
+"ViewSystemuserPage" -> "CreateSystemuserPage" [label="createSystemuserPage"]
+"ViewSystemuserPage" -> "EditSystemuserPage" [label="editSystemuserPage"]
+"ViewSystemuserPage" -> "ViewSystemuserPage" [label="viewSystemuserPage"]
+"ViewSystemuserPage" -> "ListSystemuserPage" [label="listSystemusersPage"]
+"ListSystemuserPage"
+"ListSystemuserPage" -> "CreateSystemuserPage" [label="createSystemuserPage"]
+"ListSystemuserPage" -> "EditSystemuserPage" [label="editSystemuserPage"]
+"ListSystemuserPage" -> "ViewSystemuserPage" [label="viewSystemuserPage"]
+"ListSystemuserPage" -> "ListSystemuserPage" [label="listSystemusersPage"]
+"CreateGeneralledgeraccountPage"
+"CreateGeneralledgeraccountPage" -> "CreateGeneralledgeraccountPage" [label="createGeneralledgeraccountPage"]
+"CreateGeneralledgeraccountPage" -> "EditGeneralledgeraccountPage" [label="editGeneralledgeraccountPage"]
+"CreateGeneralledgeraccountPage" -> "ViewGeneralledgeraccountPage" [label="viewGeneralledgeraccountPage"]
+"CreateGeneralledgeraccountPage" -> "ListGeneralledgeraccountPage" [label="listGeneralledgeraccountsPage"]
+"ViewFacilityPage"
+"ViewFacilityPage" -> "CreateFacilityPage" [label="createFacilityPage"]
+"ViewFacilityPage" -> "EditFacilityPage" [label="editFacilityPage"]
+"ViewFacilityPage" -> "ViewFacilityPage" [label="viewFacilityPage"]
+"ViewFacilityPage" -> "ListFacilityPage" [label="listFacilitysPage"]
+"ListProducttypePage"
+"ListProducttypePage" -> "CreateProducttypePage" [label="createProducttypePage"]
+"ListProducttypePage" -> "EditProducttypePage" [label="editProducttypePage"]
+"ListProducttypePage" -> "ViewProducttypePage" [label="viewProducttypePage"]
+"ListProducttypePage" -> "ListProducttypePage" [label="listProducttypesPage"]
+"EditPartyrolePage"
+"EditPartyrolePage" -> "CreatePartyrolePage" [label="createPartyrolePage"]
+"EditPartyrolePage" -> "EditPartyrolePage" [label="editPartyrolePage"]
+"EditPartyrolePage" -> "ViewPartyrolePage" [label="viewPartyrolePage"]
+"EditPartyrolePage" -> "ListPartyrolePage" [label="listPartyrolesPage"]
+"CreateGeneralledgeraccounttypePage"
+"CreateGeneralledgeraccounttypePage" -> "CreateGeneralledgeraccounttypePage" [label="createGeneralledgeraccounttypePage"]
+"CreateGeneralledgeraccounttypePage" -> "EditGeneralledgeraccounttypePage" [label="editGeneralledgeraccounttypePage"]
+"CreateGeneralledgeraccounttypePage" -> "ViewGeneralledgeraccounttypePage" [label="viewGeneralledgeraccounttypePage"]
+"CreateGeneralledgeraccounttypePage" -> "ListGeneralledgeraccounttypePage" [label="listGeneralledgeraccounttypesPage"]
+"ListBillingaccountPage"
+"ListBillingaccountPage" -> "CreateBillingaccountPage" [label="createBillingaccountPage"]
+"ListBillingaccountPage" -> "EditBillingaccountPage" [label="editBillingaccountPage"]
+"ListBillingaccountPage" -> "ViewBillingaccountPage" [label="viewBillingaccountPage"]
+"ListBillingaccountPage" -> "ListBillingaccountPage" [label="listBillingaccountsPage"]
+"EditInvoiceitemPage"
+"EditInvoiceitemPage" -> "CreateInvoiceitemPage" [label="createInvoiceitemPage"]
+"EditInvoiceitemPage" -> "EditInvoiceitemPage" [label="editInvoiceitemPage"]
+"EditInvoiceitemPage" -> "ViewInvoiceitemPage" [label="viewInvoiceitemPage"]
+"EditInvoiceitemPage" -> "ListInvoiceitemPage" [label="listInvoiceitemsPage"]
+"ViewUniversePage"
+"ViewUniversePage" -> "CreateUniversePage" [label="createUniversePage"]
+"ViewUniversePage" -> "EditUniversePage" [label="editUniversePage"]
+"ViewUniversePage" -> "ViewUniversePage" [label="viewUniversePage"]
+"ViewUniversePage" -> "ListUniversePage" [label="listUniversesPage"]
+"ListOrganizationPage"
+"ListOrganizationPage" -> "CreateOrganizationPage" [label="createOrganizationPage"]
+"ListOrganizationPage" -> "EditOrganizationPage" [label="editOrganizationPage"]
+"ListOrganizationPage" -> "ViewOrganizationPage" [label="viewOrganizationPage"]
+"ListOrganizationPage" -> "ListOrganizationPage" [label="listOrganizationsPage"]
+"EditSupplierproductPage"
+"EditSupplierproductPage" -> "CreateSupplierproductPage" [label="createSupplierproductPage"]
+"EditSupplierproductPage" -> "EditSupplierproductPage" [label="editSupplierproductPage"]
+"EditSupplierproductPage" -> "ViewSupplierproductPage" [label="viewSupplierproductPage"]
+"EditSupplierproductPage" -> "ListSupplierproductPage" [label="listSupplierproductsPage"]
+"EditGeneralledgeraccountPage"
+"EditGeneralledgeraccountPage" -> "CreateGeneralledgeraccountPage" [label="createGeneralledgeraccountPage"]
+"EditGeneralledgeraccountPage" -> "EditGeneralledgeraccountPage" [label="editGeneralledgeraccountPage"]
+"EditGeneralledgeraccountPage" -> "ViewGeneralledgeraccountPage" [label="viewGeneralledgeraccountPage"]
+"EditGeneralledgeraccountPage" -> "ListGeneralledgeraccountPage" [label="listGeneralledgeraccountsPage"]
+"CreateBudgetitemPage"
+"CreateBudgetitemPage" -> "CreateBudgetitemPage" [label="createBudgetitemPage"]
+"CreateBudgetitemPage" -> "EditBudgetitemPage" [label="editBudgetitemPage"]
+"CreateBudgetitemPage" -> "ViewBudgetitemPage" [label="viewBudgetitemPage"]
+"CreateBudgetitemPage" -> "ListBudgetitemPage" [label="listBudgetitemsPage"]
+"ViewBudgetPage"
+"ViewBudgetPage" -> "CreateBudgetPage" [label="createBudgetPage"]
+"ViewBudgetPage" -> "EditBudgetPage" [label="editBudgetPage"]
+"ViewBudgetPage" -> "ViewBudgetPage" [label="viewBudgetPage"]
+"ViewBudgetPage" -> "ListBudgetPage" [label="listBudgetsPage"]
+"CreatePartycategoryPage"
+"CreatePartycategoryPage" -> "CreatePartycategoryPage" [label="createPartycategoryPage"]
+"CreatePartycategoryPage" -> "EditPartycategoryPage" [label="editPartycategoryPage"]
+"CreatePartycategoryPage" -> "ViewPartycategoryPage" [label="viewPartycategoryPage"]
+"CreatePartycategoryPage" -> "ListPartycategoryPage" [label="listPartycategorysPage"]
+"ViewOrganizationglaccountbalancePage"
+"ViewOrganizationglaccountbalancePage" -> "CreateOrganizationglaccountbalancePage" [label="createOrganizationglaccountbalancePage"]
+"ViewOrganizationglaccountbalancePage" -> "EditOrganizationglaccountbalancePage" [label="editOrganizationglaccountbalancePage"]
+"ViewOrganizationglaccountbalancePage" -> "ViewOrganizationglaccountbalancePage" [label="viewOrganizationglaccountbalancePage"]
+"ViewOrganizationglaccountbalancePage" -> "ListOrganizationglaccountbalancePage" [label="listOrganizationglaccountbalancesPage"]
+"CreateInvoicePage"
+"CreateInvoicePage" -> "CreateInvoicePage" [label="createInvoicePage"]
+"CreateInvoicePage" -> "EditInvoicePage" [label="editInvoicePage"]
+"CreateInvoicePage" -> "ViewInvoicePage" [label="viewInvoicePage"]
+"CreateInvoicePage" -> "ListInvoicePage" [label="listInvoicesPage"]
+"EditBudgetPage"
+"EditBudgetPage" -> "CreateBudgetPage" [label="createBudgetPage"]
+"EditBudgetPage" -> "EditBudgetPage" [label="editBudgetPage"]
+"EditBudgetPage" -> "ViewBudgetPage" [label="viewBudgetPage"]
+"EditBudgetPage" -> "ListBudgetPage" [label="listBudgetsPage"]
+"CreatePartyPage"
+"CreatePartyPage" -> "CreatePartyPage" [label="createPartyPage"]
+"CreatePartyPage" -> "EditPartyPage" [label="editPartyPage"]
+"CreatePartyPage" -> "ViewPartyPage" [label="viewPartyPage"]
+"CreatePartyPage" -> "ListPartyPage" [label="listPartysPage"]
+"ViewProductfeaturetypePage"
+"ViewProductfeaturetypePage" -> "CreateProductfeaturetypePage" [label="createProductfeaturetypePage"]
+"ViewProductfeaturetypePage" -> "EditProductfeaturetypePage" [label="editProductfeaturetypePage"]
+"ViewProductfeaturetypePage" -> "ViewProductfeaturetypePage" [label="viewProductfeaturetypePage"]
+"ViewProductfeaturetypePage" -> "ListProductfeaturetypePage" [label="listProductfeaturetypesPage"]
+"EditGeneralledgeraccounttypePage"
+"EditGeneralledgeraccounttypePage" -> "CreateGeneralledgeraccounttypePage" [label="createGeneralledgeraccounttypePage"]
+"EditGeneralledgeraccounttypePage" -> "EditGeneralledgeraccounttypePage" [label="editGeneralledgeraccounttypePage"]
+"EditGeneralledgeraccounttypePage" -> "ViewGeneralledgeraccounttypePage" [label="viewGeneralledgeraccounttypePage"]
+"EditGeneralledgeraccounttypePage" -> "ListGeneralledgeraccounttypePage" [label="listGeneralledgeraccounttypesPage"]
+"EditOrganizationglaccountbalancePage"
+"EditOrganizationglaccountbalancePage" -> "CreateOrganizationglaccountbalancePage" [label="createOrganizationglaccountbalancePage"]
+"EditOrganizationglaccountbalancePage" -> "EditOrganizationglaccountbalancePage" [label="editOrganizationglaccountbalancePage"]
+"EditOrganizationglaccountbalancePage" -> "ViewOrganizationglaccountbalancePage" [label="viewOrganizationglaccountbalancePage"]
+"EditOrganizationglaccountbalancePage" -> "ListOrganizationglaccountbalancePage" [label="listOrganizationglaccountbalancesPage"]
+"ListBudgetitemPage"
+"ListBudgetitemPage" -> "CreateBudgetitemPage" [label="createBudgetitemPage"]
+"ListBudgetitemPage" -> "EditBudgetitemPage" [label="editBudgetitemPage"]
+"ListBudgetitemPage" -> "ViewBudgetitemPage" [label="viewBudgetitemPage"]
+"ListBudgetitemPage" -> "ListBudgetitemPage" [label="listBudgetitemsPage"]
+"EditFacilityPage"
+"EditFacilityPage" -> "CreateFacilityPage" [label="createFacilityPage"]
+"EditFacilityPage" -> "EditFacilityPage" [label="editFacilityPage"]
+"EditFacilityPage" -> "ViewFacilityPage" [label="viewFacilityPage"]
+"EditFacilityPage" -> "ListFacilityPage" [label="listFacilitysPage"]
+"CreateUniversePage"
+"CreateUniversePage" -> "CreateUniversePage" [label="createUniversePage"]
+"CreateUniversePage" -> "EditUniversePage" [label="editUniversePage"]
+"CreateUniversePage" -> "ViewUniversePage" [label="viewUniversePage"]
+"CreateUniversePage" -> "ListUniversePage" [label="listUniversesPage"]
+"EditInvoicePage"
+"EditInvoicePage" -> "CreateInvoicePage" [label="createInvoicePage"]
+"EditInvoicePage" -> "EditInvoicePage" [label="editInvoicePage"]
+"EditInvoicePage" -> "ViewInvoicePage" [label="viewInvoicePage"]
+"EditInvoicePage" -> "ListInvoicePage" [label="listInvoicesPage"]
+"ListInvoiceitemPage"
+"ListInvoiceitemPage" -> "CreateInvoiceitemPage" [label="createInvoiceitemPage"]
+"ListInvoiceitemPage" -> "EditInvoiceitemPage" [label="editInvoiceitemPage"]
+"ListInvoiceitemPage" -> "ViewInvoiceitemPage" [label="viewInvoiceitemPage"]
+"ListInvoiceitemPage" -> "ListInvoiceitemPage" [label="listInvoiceitemsPage"]
+"CreateOrganizationgeneralledgeraccountPage"
+"CreateOrganizationgeneralledgeraccountPage" -> "CreateOrganizationgeneralledgeraccountPage" [label="createOrganizationgeneralledgeraccountPage"]
+"CreateOrganizationgeneralledgeraccountPage" -> "EditOrganizationgeneralledgeraccountPage" [label="editOrganizationgeneralledgeraccountPage"]
+"CreateOrganizationgeneralledgeraccountPage" -> "ViewOrganizationgeneralledgeraccountPage" [label="viewOrganizationgeneralledgeraccountPage"]
+"CreateOrganizationgeneralledgeraccountPage" -> "ListOrganizationgeneralledgeraccountPage" [label="listOrganizationgeneralledgeraccountsPage"]
+"ViewFacilitytypePage"
+"ViewFacilitytypePage" -> "CreateFacilitytypePage" [label="createFacilitytypePage"]
+"ViewFacilitytypePage" -> "EditFacilitytypePage" [label="editFacilitytypePage"]
+"ViewFacilitytypePage" -> "ViewFacilitytypePage" [label="viewFacilitytypePage"]
+"ViewFacilitytypePage" -> "ListFacilitytypePage" [label="listFacilitytypesPage"]
+"ViewBudgetitemPage"
+"ViewBudgetitemPage" -> "CreateBudgetitemPage" [label="createBudgetitemPage"]
+"ViewBudgetitemPage" -> "EditBudgetitemPage" [label="editBudgetitemPage"]
+"ViewBudgetitemPage" -> "ViewBudgetitemPage" [label="viewBudgetitemPage"]
+"ViewBudgetitemPage" -> "ListBudgetitemPage" [label="listBudgetitemsPage"]
+"ViewProducttypePage"
+"ViewProducttypePage" -> "CreateProducttypePage" [label="createProducttypePage"]
+"ViewProducttypePage" -> "EditProducttypePage" [label="editProducttypePage"]
+"ViewProducttypePage" -> "ViewProducttypePage" [label="viewProducttypePage"]
+"ViewProducttypePage" -> "ListProducttypePage" [label="listProducttypesPage"]
+"ViewAgreementPage"
+"ViewAgreementPage" -> "CreateAgreementPage" [label="createAgreementPage"]
+"ViewAgreementPage" -> "EditAgreementPage" [label="editAgreementPage"]
+"ViewAgreementPage" -> "ViewAgreementPage" [label="viewAgreementPage"]
+"ViewAgreementPage" -> "ListAgreementPage" [label="listAgreementsPage"]
+"ListInvoicetermPage"
+"ListInvoicetermPage" -> "CreateInvoicetermPage" [label="createInvoicetermPage"]
+"ListInvoicetermPage" -> "EditInvoicetermPage" [label="editInvoicetermPage"]
+"ListInvoicetermPage" -> "ViewInvoicetermPage" [label="viewInvoicetermPage"]
+"ListInvoicetermPage" -> "ListInvoicetermPage" [label="listInvoicetermsPage"]
+"ViewInventoryitemPage"
+"ViewInventoryitemPage" -> "CreateInventoryitemPage" [label="createInventoryitemPage"]
+"ViewInventoryitemPage" -> "EditInventoryitemPage" [label="editInventoryitemPage"]
+"ViewInventoryitemPage" -> "ViewInventoryitemPage" [label="viewInventoryitemPage"]
+"ViewInventoryitemPage" -> "ListInventoryitemPage" [label="listInventoryitemsPage"]
+"CreateProductPage"
+"CreateProductPage" -> "CreateProductPage" [label="createProductPage"]
+"CreateProductPage" -> "EditProductPage" [label="editProductPage"]
+"CreateProductPage" -> "ViewProductPage" [label="viewProductPage"]
+"CreateProductPage" -> "ListProductPage" [label="listProductsPage"]
+"ViewInvoiceitemPage"
+"ViewInvoiceitemPage" -> "CreateInvoiceitemPage" [label="createInvoiceitemPage"]
+"ViewInvoiceitemPage" -> "EditInvoiceitemPage" [label="editInvoiceitemPage"]
+"ViewInvoiceitemPage" -> "ViewInvoiceitemPage" [label="viewInvoiceitemPage"]
+"ViewInvoiceitemPage" -> "ListInvoiceitemPage" [label="listInvoiceitemsPage"]
+"ListOrganizationglaccountbalancePage"
+"ListOrganizationglaccountbalancePage" -> "CreateOrganizationglaccountbalancePage" [label="createOrganizationglaccountbalancePage"]
+"ListOrganizationglaccountbalancePage" -> "EditOrganizationglaccountbalancePage" [label="editOrganizationglaccountbalancePage"]
+"ListOrganizationglaccountbalancePage" -> "ViewOrganizationglaccountbalancePage" [label="viewOrganizationglaccountbalancePage"]
+"ListOrganizationglaccountbalancePage" -> "ListOrganizationglaccountbalancePage" [label="listOrganizationglaccountbalancesPage"]
+"ViewPartytypePage"
+"ViewPartytypePage" -> "CreatePartytypePage" [label="createPartytypePage"]
+"ViewPartytypePage" -> "EditPartytypePage" [label="editPartytypePage"]
+"ViewPartytypePage" -> "ViewPartytypePage" [label="viewPartytypePage"]
+"ViewPartytypePage" -> "ListPartytypePage" [label="listPartytypesPage"]
+"CreatePaymentPage"
+"CreatePaymentPage" -> "CreatePaymentPage" [label="createPaymentPage"]
+"CreatePaymentPage" -> "EditPaymentPage" [label="editPaymentPage"]
+"CreatePaymentPage" -> "ViewPaymentPage" [label="viewPaymentPage"]
+"CreatePaymentPage" -> "ListPaymentPage" [label="listPaymentsPage"]
+"EditProductfeaturePage"
+"EditProductfeaturePage" -> "CreateProductfeaturePage" [label="createProductfeaturePage"]
+"EditProductfeaturePage" -> "EditProductfeaturePage" [label="editProductfeaturePage"]
+"EditProductfeaturePage" -> "ViewProductfeaturePage" [label="viewProductfeaturePage"]
+"EditProductfeaturePage" -> "ListProductfeaturePage" [label="listProductfeaturesPage"]
+"ViewPartyroletypePage"
+"ViewPartyroletypePage" -> "CreatePartyroletypePage" [label="createPartyroletypePage"]
+"ViewPartyroletypePage" -> "EditPartyroletypePage" [label="editPartyroletypePage"]
+"ViewPartyroletypePage" -> "ViewPartyroletypePage" [label="viewPartyroletypePage"]
+"ViewPartyroletypePage" -> "ListPartyroletypePage" [label="listPartyroletypesPage"]
+"CreateInventoryitemPage"
+"CreateInventoryitemPage" -> "CreateInventoryitemPage" [label="createInventoryitemPage"]
+"CreateInventoryitemPage" -> "EditInventoryitemPage" [label="editInventoryitemPage"]
+"CreateInventoryitemPage" -> "ViewInventoryitemPage" [label="viewInventoryitemPage"]
+"CreateInventoryitemPage" -> "ListInventoryitemPage" [label="listInventoryitemsPage"]
+"EditBillingaccountPage"
+"EditBillingaccountPage" -> "CreateBillingaccountPage" [label="createBillingaccountPage"]
+"EditBillingaccountPage" -> "EditBillingaccountPage" [label="editBillingaccountPage"]
+"EditBillingaccountPage" -> "ViewBillingaccountPage" [label="viewBillingaccountPage"]
+"EditBillingaccountPage" -> "ListBillingaccountPage" [label="listBillingaccountsPage"]
+"SignUpPage"
+"SignUpPage" -> "LoginPage" [label="loginPage"]
+"SignUpPage" -> "PasswordPage" [label="passwordPage"]
+"CreateInvoicetermPage"
+"CreateInvoicetermPage" -> "CreateInvoicetermPage" [label="createInvoicetermPage"]
+"CreateInvoicetermPage" -> "EditInvoicetermPage" [label="editInvoicetermPage"]
+"CreateInvoicetermPage" -> "ViewInvoicetermPage" [label="viewInvoicetermPage"]
+"CreateInvoicetermPage" -> "ListInvoicetermPage" [label="listInvoicetermsPage"]
+"ViewSupplierproductPage"
+"ViewSupplierproductPage" -> "CreateSupplierproductPage" [label="createSupplierproductPage"]
+"ViewSupplierproductPage" -> "EditSupplierproductPage" [label="editSupplierproductPage"]
+"ViewSupplierproductPage" -> "ViewSupplierproductPage" [label="viewSupplierproductPage"]
+"ViewSupplierproductPage" -> "ListSupplierproductPage" [label="listSupplierproductsPage"]
+"ViewPersonPage"
+"ViewPersonPage" -> "CreatePersonPage" [label="createPersonPage"]
+"ViewPersonPage" -> "EditPersonPage" [label="editPersonPage"]
+"ViewPersonPage" -> "ViewPersonPage" [label="viewPersonPage"]
+"ViewPersonPage" -> "ListPersonPage" [label="listPersonsPage"]
+"ListAccountingtransactionPage"
+"ListAccountingtransactionPage" -> "CreateAccountingtransactionPage" [label="createAccountingtransactionPage"]
+"ListAccountingtransactionPage" -> "EditAccountingtransactionPage" [label="editAccountingtransactionPage"]
+"ListAccountingtransactionPage" -> "ViewAccountingtransactionPage" [label="viewAccountingtransactionPage"]
+"ListAccountingtransactionPage" -> "ListAccountingtransactionPage" [label="listAccountingtransactionsPage"]
+"CreateBillingaccountPage"
+"CreateBillingaccountPage" -> "CreateBillingaccountPage" [label="createBillingaccountPage"]
+"CreateBillingaccountPage" -> "EditBillingaccountPage" [label="editBillingaccountPage"]
+"CreateBillingaccountPage" -> "ViewBillingaccountPage" [label="viewBillingaccountPage"]
+"CreateBillingaccountPage" -> "ListBillingaccountPage" [label="listBillingaccountsPage"]
+"CreateOrganizationglaccountbalancePage"
+"CreateOrganizationglaccountbalancePage" -> "CreateOrganizationglaccountbalancePage" [label="createOrganizationglaccountbalancePage"]
+"CreateOrganizationglaccountbalancePage" -> "EditOrganizationglaccountbalancePage" [label="editOrganizationglaccountbalancePage"]
+"CreateOrganizationglaccountbalancePage" -> "ViewOrganizationglaccountbalancePage" [label="viewOrganizationglaccountbalancePage"]
+"CreateOrganizationglaccountbalancePage" -> "ListOrganizationglaccountbalancePage" [label="listOrganizationglaccountbalancesPage"]
+"EditProducttypePage"
+"EditProducttypePage" -> "CreateProducttypePage" [label="createProducttypePage"]
+"EditProducttypePage" -> "EditProducttypePage" [label="editProducttypePage"]
+"EditProducttypePage" -> "ViewProducttypePage" [label="viewProducttypePage"]
+"EditProducttypePage" -> "ListProducttypePage" [label="listProducttypesPage"]
+"EditSystemuserPage"
+"EditSystemuserPage" -> "CreateSystemuserPage" [label="createSystemuserPage"]
+"EditSystemuserPage" -> "EditSystemuserPage" [label="editSystemuserPage"]
+"EditSystemuserPage" -> "ViewSystemuserPage" [label="viewSystemuserPage"]
+"EditSystemuserPage" -> "ListSystemuserPage" [label="listSystemusersPage"]
+"ListPartycategoryPage"
+"ListPartycategoryPage" -> "CreatePartycategoryPage" [label="createPartycategoryPage"]
+"ListPartycategoryPage" -> "EditPartycategoryPage" [label="editPartycategoryPage"]
+"ListPartycategoryPage" -> "ViewPartycategoryPage" [label="viewPartycategoryPage"]
+"ListPartycategoryPage" -> "ListPartycategoryPage" [label="listPartycategorysPage"]
+"EditProductfeaturetypePage"
+"EditProductfeaturetypePage" -> "CreateProductfeaturetypePage" [label="createProductfeaturetypePage"]
+"EditProductfeaturetypePage" -> "EditProductfeaturetypePage" [label="editProductfeaturetypePage"]
+"EditProductfeaturetypePage" -> "ViewProductfeaturetypePage" [label="viewProductfeaturetypePage"]
+"EditProductfeaturetypePage" -> "ListProductfeaturetypePage" [label="listProductfeaturetypesPage"]
+"CreateFacilitytypePage"
+"CreateFacilitytypePage" -> "CreateFacilitytypePage" [label="createFacilitytypePage"]
+"CreateFacilitytypePage" -> "EditFacilitytypePage" [label="editFacilitytypePage"]
+"CreateFacilitytypePage" -> "ViewFacilitytypePage" [label="viewFacilitytypePage"]
+"CreateFacilitytypePage" -> "ListFacilitytypePage" [label="listFacilitytypesPage"]
+"ListProductcategoryPage"
+"ListProductcategoryPage" -> "CreateProductcategoryPage" [label="createProductcategoryPage"]
+"ListProductcategoryPage" -> "EditProductcategoryPage" [label="editProductcategoryPage"]
+"ListProductcategoryPage" -> "ViewProductcategoryPage" [label="viewProductcategoryPage"]
+"ListProductcategoryPage" -> "ListProductcategoryPage" [label="listProductcategorysPage"]
+"ListSupplierproductPage"
+"ListSupplierproductPage" -> "CreateSupplierproductPage" [label="createSupplierproductPage"]
+"ListSupplierproductPage" -> "EditSupplierproductPage" [label="editSupplierproductPage"]
+"ListSupplierproductPage" -> "ViewSupplierproductPage" [label="viewSupplierproductPage"]
+"ListSupplierproductPage" -> "ListSupplierproductPage" [label="listSupplierproductsPage"]
+"EditProductcategoryPage"
+"EditProductcategoryPage" -> "CreateProductcategoryPage" [label="createProductcategoryPage"]
+"EditProductcategoryPage" -> "EditProductcategoryPage" [label="editProductcategoryPage"]
+"EditProductcategoryPage" -> "ViewProductcategoryPage" [label="viewProductcategoryPage"]
+"EditProductcategoryPage" -> "ListProductcategoryPage" [label="listProductcategorysPage"]
+"ListPartyPage"
+"ListPartyPage" -> "CreatePartyPage" [label="createPartyPage"]
+"ListPartyPage" -> "EditPartyPage" [label="editPartyPage"]
+"ListPartyPage" -> "ViewPartyPage" [label="viewPartyPage"]
+"ListPartyPage" -> "ListPartyPage" [label="listPartysPage"]
+"CreateAgreementPage"
+"CreateAgreementPage" -> "CreateAgreementPage" [label="createAgreementPage"]
+"CreateAgreementPage" -> "EditAgreementPage" [label="editAgreementPage"]
+"CreateAgreementPage" -> "ViewAgreementPage" [label="viewAgreementPage"]
+"CreateAgreementPage" -> "ListAgreementPage" [label="listAgreementsPage"]
+"ViewPartycategoryPage"
+"ViewPartycategoryPage" -> "CreatePartycategoryPage" [label="createPartycategoryPage"]
+"ViewPartycategoryPage" -> "EditPartycategoryPage" [label="editPartycategoryPage"]
+"ViewPartycategoryPage" -> "ViewPartycategoryPage" [label="viewPartycategoryPage"]
+"ViewPartycategoryPage" -> "ListPartycategoryPage" [label="listPartycategorysPage"]
+"ListFacilityPage"
+"ListFacilityPage" -> "CreateFacilityPage" [label="createFacilityPage"]
+"ListFacilityPage" -> "EditFacilityPage" [label="editFacilityPage"]
+"ListFacilityPage" -> "ViewFacilityPage" [label="viewFacilityPage"]
+"ListFacilityPage" -> "ListFacilityPage" [label="listFacilitysPage"]
+"CreateBudgetPage"
+"CreateBudgetPage" -> "CreateBudgetPage" [label="createBudgetPage"]
+"CreateBudgetPage" -> "EditBudgetPage" [label="editBudgetPage"]
+"CreateBudgetPage" -> "ViewBudgetPage" [label="viewBudgetPage"]
+"CreateBudgetPage" -> "ListBudgetPage" [label="listBudgetsPage"]
+"PasswordPage"
+"PasswordPage" -> "LoginPage" [label="loginPage"]
+"PasswordPage" -> "SignUpPage" [label="signUpPage"]
+"ViewGeneralledgeraccountPage"
+"ViewGeneralledgeraccountPage" -> "CreateGeneralledgeraccountPage" [label="createGeneralledgeraccountPage"]
+"ViewGeneralledgeraccountPage" -> "EditGeneralledgeraccountPage" [label="editGeneralledgeraccountPage"]
+"ViewGeneralledgeraccountPage" -> "ViewGeneralledgeraccountPage" [label="viewGeneralledgeraccountPage"]
+"ViewGeneralledgeraccountPage" -> "ListGeneralledgeraccountPage" [label="listGeneralledgeraccountsPage"]
+"EditPartycategoryPage"
+"EditPartycategoryPage" -> "CreatePartycategoryPage" [label="createPartycategoryPage"]
+"EditPartycategoryPage" -> "EditPartycategoryPage" [label="editPartycategoryPage"]
+"EditPartycategoryPage" -> "ViewPartycategoryPage" [label="viewPartycategoryPage"]
+"EditPartycategoryPage" -> "ListPartycategoryPage" [label="listPartycategorysPage"]
+"EditAgreementPage"
+"EditAgreementPage" -> "CreateAgreementPage" [label="createAgreementPage"]
+"EditAgreementPage" -> "EditAgreementPage" [label="editAgreementPage"]
+"EditAgreementPage" -> "ViewAgreementPage" [label="viewAgreementPage"]
+"EditAgreementPage" -> "ListAgreementPage" [label="listAgreementsPage"]
+"EditPaymentPage"
+"EditPaymentPage" -> "CreatePaymentPage" [label="createPaymentPage"]
+"EditPaymentPage" -> "EditPaymentPage" [label="editPaymentPage"]
+"EditPaymentPage" -> "ViewPaymentPage" [label="viewPaymentPage"]
+"EditPaymentPage" -> "ListPaymentPage" [label="listPaymentsPage"]
+"ListFacilitytypePage"
+"ListFacilitytypePage" -> "CreateFacilitytypePage" [label="createFacilitytypePage"]
+"ListFacilitytypePage" -> "EditFacilitytypePage" [label="editFacilitytypePage"]
+"ListFacilitytypePage" -> "ViewFacilitytypePage" [label="viewFacilitytypePage"]
+"ListFacilitytypePage" -> "ListFacilitytypePage" [label="listFacilitytypesPage"]
+"ListAgreementPage"
+"ListAgreementPage" -> "CreateAgreementPage" [label="createAgreementPage"]
+"ListAgreementPage" -> "EditAgreementPage" [label="editAgreementPage"]
+"ListAgreementPage" -> "ViewAgreementPage" [label="viewAgreementPage"]
+"ListAgreementPage" -> "ListAgreementPage" [label="listAgreementsPage"]
+"ViewProductPage"
+"ViewProductPage" -> "CreateProductPage" [label="createProductPage"]
+"ViewProductPage" -> "EditProductPage" [label="editProductPage"]
+"ViewProductPage" -> "ViewProductPage" [label="viewProductPage"]
+"ViewProductPage" -> "ListProductPage" [label="listProductsPage"]
+"CreateSystemuserPage"
+"CreateSystemuserPage" -> "CreateSystemuserPage" [label="createSystemuserPage"]
+"CreateSystemuserPage" -> "EditSystemuserPage" [label="editSystemuserPage"]
+"CreateSystemuserPage" -> "ViewSystemuserPage" [label="viewSystemuserPage"]
+"CreateSystemuserPage" -> "ListSystemuserPage" [label="listSystemusersPage"]
+"EditPartyPage"
+"EditPartyPage" -> "CreatePartyPage" [label="createPartyPage"]
+"EditPartyPage" -> "EditPartyPage" [label="editPartyPage"]
+"EditPartyPage" -> "ViewPartyPage" [label="viewPartyPage"]
+"EditPartyPage" -> "ListPartyPage" [label="listPartysPage"]
+"ViewProductcategoryPage"
+"ViewProductcategoryPage" -> "CreateProductcategoryPage" [label="createProductcategoryPage"]
+"ViewProductcategoryPage" -> "EditProductcategoryPage" [label="editProductcategoryPage"]
+"ViewProductcategoryPage" -> "ViewProductcategoryPage" [label="viewProductcategoryPage"]
+"ViewProductcategoryPage" -> "ListProductcategoryPage" [label="listProductcategorysPage"]
+"ListProductPage"
+"ListProductPage" -> "CreateProductPage" [label="createProductPage"]
+"ListProductPage" -> "EditProductPage" [label="editProductPage"]
+"ListProductPage" -> "ViewProductPage" [label="viewProductPage"]
+"ListProductPage" -> "ListProductPage" [label="listProductsPage"]
+"ViewPartyPage"
+"ViewPartyPage" -> "CreatePartyPage" [label="createPartyPage"]
+"ViewPartyPage" -> "EditPartyPage" [label="editPartyPage"]
+"ViewPartyPage" -> "ViewPartyPage" [label="viewPartyPage"]
+"ViewPartyPage" -> "ListPartyPage" [label="listPartysPage"]
+"EditOrganizationgeneralledgeraccountPage"
+"EditOrganizationgeneralledgeraccountPage" -> "CreateOrganizationgeneralledgeraccountPage" [label="createOrganizationgeneralledgeraccountPage"]
+"EditOrganizationgeneralledgeraccountPage" -> "EditOrganizationgeneralledgeraccountPage" [label="editOrganizationgeneralledgeraccountPage"]
+"EditOrganizationgeneralledgeraccountPage" -> "ViewOrganizationgeneralledgeraccountPage" [label="viewOrganizationgeneralledgeraccountPage"]
+"EditOrganizationgeneralledgeraccountPage" -> "ListOrganizationgeneralledgeraccountPage" [label="listOrganizationgeneralledgeraccountsPage"]
+"ListGeneralledgeraccountPage"
+"ListGeneralledgeraccountPage" -> "CreateGeneralledgeraccountPage" [label="createGeneralledgeraccountPage"]
+"ListGeneralledgeraccountPage" -> "EditGeneralledgeraccountPage" [label="editGeneralledgeraccountPage"]
+"ListGeneralledgeraccountPage" -> "ViewGeneralledgeraccountPage" [label="viewGeneralledgeraccountPage"]
+"ListGeneralledgeraccountPage" -> "ListGeneralledgeraccountPage" [label="listGeneralledgeraccountsPage"]
+"CreateProductfeaturetypePage"
+"CreateProductfeaturetypePage" -> "CreateProductfeaturetypePage" [label="createProductfeaturetypePage"]
+"CreateProductfeaturetypePage" -> "EditProductfeaturetypePage" [label="editProductfeaturetypePage"]
+"CreateProductfeaturetypePage" -> "ViewProductfeaturetypePage" [label="viewProductfeaturetypePage"]
+"CreateProductfeaturetypePage" -> "ListProductfeaturetypePage" [label="listProductfeaturetypesPage"]
+"ListUniversePage"
+"ListUniversePage" -> "CreateUniversePage" [label="createUniversePage"]
+"ListUniversePage" -> "EditUniversePage" [label="editUniversePage"]
+"ListUniversePage" -> "ViewUniversePage" [label="viewUniversePage"]
+"ListUniversePage" -> "ListUniversePage" [label="listUniversesPage"]
+"ViewPartyrolePage"
+"ViewPartyrolePage" -> "CreatePartyrolePage" [label="createPartyrolePage"]
+"ViewPartyrolePage" -> "EditPartyrolePage" [label="editPartyrolePage"]
+"ViewPartyrolePage" -> "ViewPartyrolePage" [label="viewPartyrolePage"]
+"ViewPartyrolePage" -> "ListPartyrolePage" [label="listPartyrolesPage"]
+"CreateAccountingtransactionPage"
+"CreateAccountingtransactionPage" -> "CreateAccountingtransactionPage" [label="createAccountingtransactionPage"]
+"CreateAccountingtransactionPage" -> "EditAccountingtransactionPage" [label="editAccountingtransactionPage"]
+"CreateAccountingtransactionPage" -> "ViewAccountingtransactionPage" [label="viewAccountingtransactionPage"]
+"CreateAccountingtransactionPage" -> "ListAccountingtransactionPage" [label="listAccountingtransactionsPage"]
+"CreatePersonPage"
+"CreatePersonPage" -> "CreatePersonPage" [label="createPersonPage"]
+"CreatePersonPage" -> "EditPersonPage" [label="editPersonPage"]
+"CreatePersonPage" -> "ViewPersonPage" [label="viewPersonPage"]
+"CreatePersonPage" -> "ListPersonPage" [label="listPersonsPage"]
+"ViewBillingaccountPage"
+"ViewBillingaccountPage" -> "CreateBillingaccountPage" [label="createBillingaccountPage"]
+"ViewBillingaccountPage" -> "EditBillingaccountPage" [label="editBillingaccountPage"]
+"ViewBillingaccountPage" -> "ViewBillingaccountPage" [label="viewBillingaccountPage"]
+"ViewBillingaccountPage" -> "ListBillingaccountPage" [label="listBillingaccountsPage"]
+"CreateProducttypePage"
+"CreateProducttypePage" -> "CreateProducttypePage" [label="createProducttypePage"]
+"CreateProducttypePage" -> "EditProducttypePage" [label="editProducttypePage"]
+"CreateProducttypePage" -> "ViewProducttypePage" [label="viewProducttypePage"]
+"CreateProducttypePage" -> "ListProducttypePage" [label="listProducttypesPage"]
+"ListPartytypePage"
+"ListPartytypePage" -> "CreatePartytypePage" [label="createPartytypePage"]
+"ListPartytypePage" -> "EditPartytypePage" [label="editPartytypePage"]
+"ListPartytypePage" -> "ViewPartytypePage" [label="viewPartytypePage"]
+"ListPartytypePage" -> "ListPartytypePage" [label="listPartytypesPage"]
+"EditPartytypePage"
+"EditPartytypePage" -> "CreatePartytypePage" [label="createPartytypePage"]
+"EditPartytypePage" -> "EditPartytypePage" [label="editPartytypePage"]
+"EditPartytypePage" -> "ViewPartytypePage" [label="viewPartytypePage"]
+"EditPartytypePage" -> "ListPartytypePage" [label="listPartytypesPage"]
+"ViewOrganizationPage"
+"ViewOrganizationPage" -> "CreateOrganizationPage" [label="createOrganizationPage"]
+"ViewOrganizationPage" -> "EditOrganizationPage" [label="editOrganizationPage"]
+"ViewOrganizationPage" -> "ViewOrganizationPage" [label="viewOrganizationPage"]
+"ViewOrganizationPage" -> "ListOrganizationPage" [label="listOrganizationsPage"]
+}

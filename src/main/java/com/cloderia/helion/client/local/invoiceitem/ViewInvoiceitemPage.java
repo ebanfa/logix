@@ -1,0 +1,53 @@
+/**
+ * 
+ */
+package com.cloderia.helion.client.local.invoiceitem;
+
+import javax.inject.Inject;
+
+import org.jboss.errai.common.client.api.RemoteCallback;
+import org.jboss.errai.databinding.client.api.DataBinder;
+import org.jboss.errai.ui.nav.client.local.Page;
+import org.jboss.errai.ui.nav.client.local.PageState;
+import org.jboss.errai.ui.shared.api.annotations.AutoBound;
+import org.jboss.errai.ui.shared.api.annotations.DataField;
+import org.jboss.errai.ui.shared.api.annotations.Templated;
+
+import com.cloderia.helion.client.shared.model.Invoiceitem;
+
+/**
+ * @author adrian
+ *
+ */
+@Page(path = "/viewinvoiceitem")
+@Templated(value = "view-invoiceitem-page.html#app-container")
+public class ViewInvoiceitemPage extends BaseInvoiceitemPage {
+
+	@PageState
+	private Long id;
+
+	@Inject
+	@AutoBound
+	private DataBinder<Invoiceitem> binder;
+
+	@Inject
+	@DataField
+	private InvoiceitemDisplay entityDisplayComponent;
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see com.cloderia.helion.client.local.BasePortalPage#doSetup()
+	 */
+	@Override
+	protected void doSetup() {
+		this.setViewTitle(BaseInvoiceitemPage.VIEW_INVOICEITEM, "");
+		invoiceitemService.call(new RemoteCallback<Invoiceitem>() {
+			@Override
+			public void callback(Invoiceitem invoiceitem) {
+				binder.setModel(invoiceitem);
+				entityDisplayComponent.setValue(invoiceitem);
+			}
+		}).findById(new Long(id));
+	}
+}
